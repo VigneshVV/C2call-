@@ -16,8 +16,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    self.affiliateid = @"AC0157745B4AE9";
+    self.secret = @"1e65baa0d02a3c846f3e619a0f7ba4ef";
+    
+//        self.affiliateid = @"1F3E9213F51427D53";
+//        self.secret = @"94b125670dc69aa6220fb338c00da71b";
+    return [super application:application didFinishLaunchingWithOptions:launchOptions];
+
 }
 
 
@@ -46,6 +51,5 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
 
 @end
